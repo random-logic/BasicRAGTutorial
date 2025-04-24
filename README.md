@@ -8,11 +8,15 @@ Replicate this [tutorial](https://python.langchain.com/docs/tutorials/rag/) to l
 4. `ollama run llama3:8b`, can ctrl+c when finished with running this project to save system resources.
 
 # Installation process
-1. `conda create -n "BasicRAGTutorial" python=3.12`.
-2. `conda activate BasicRAGTutorial`.
-3. `pip install poetry`.
-4. `poetry install`.
-5. Run `main.ipynb` in the `BasicRAGTutorial` conda env.
+1. Pull from GitHub.
+    * [SSH] `git clone git@github.com:random-logic/BasicRAGTutorial.git`.
+    * [Default] `git clone https://github.com/random-logic/BasicRAGTutorial.git`.
+2. `cd BasicRAGTutorial`.
+3. `conda create -n "BasicRAGTutorial" python=3.12`.
+4. `conda activate BasicRAGTutorial`.
+5. `pip install poetry`.
+6. `poetry install`.
+7. Run `main.ipynb` in the `BasicRAGTutorial` conda env.
 
 # Configure Environment on VSCode
 1. Enter `Cmd+Shift+p` on Mac or `Ctrl+Shift+p` on PC.
